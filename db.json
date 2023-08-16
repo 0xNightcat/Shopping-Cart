@@ -1,0 +1,25 @@
+{
+  "Shopping": {
+    "Products": [
+      {
+        "img": "http://localhost:3000/static/media/logo-1.49bb70df20b074a9e006.png",
+        "id": 20,
+        "title": "Acer 2023",
+        "price": 9000,
+        "amount": 3
+      },
+      {
+        "img": "http://localhost:3000/static/media/logo-1.49bb70df20b074a9e006.png",
+        "id": 30,
+        "title": "Mac 2022",
+        "price": 16000,
+        "amount": 4
+      }
+    ],
+    "Total": 25000,
+    "Customer": {
+      "name": "Behnam Bahrami",
+      "email": "test2023@gmail.com"
+    }
+  }
+}

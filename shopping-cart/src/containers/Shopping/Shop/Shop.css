@@ -1,0 +1,17 @@
+.shop {
+   margin-top: 1.7rem;
+}
+
+.shop .products-inner {
+   margin-top: 1.7rem;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+}
+
+h1 {
+   border-bottom: 1px dashed #575757;
+   padding-bottom: 12px;
+   font-size: 1.8em;
+}

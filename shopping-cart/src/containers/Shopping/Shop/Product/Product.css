@@ -1,0 +1,36 @@
+.product-item {
+   width: 22%;
+   margin-left: 20px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   border: 1px solid #80808083;
+   background-color: #dcdcdc5b;
+   border-radius: 7px;
+   padding: 20px 10px;
+   transition: 0.2s;
+}
+
+.product-item:hover {
+   transform: translateY(-2px);
+}
+
+.product-item:nth-child(1) {
+   margin-left: 0;
+}
+
+.pro-name {
+   font-size: 22px;
+   margin: 10px;
+}
+
+.price {
+   font-size: 19px;
+   color: #0000009c;
+   font-weight: bold;
+}
+
+.btn-add-product {
+   margin-top: 15px;
+}

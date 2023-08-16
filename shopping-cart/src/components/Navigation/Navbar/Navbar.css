@@ -1,0 +1,20 @@
+.navbar {
+   display: flex;
+   justify-content: space-between;
+   flex-direction: row-reverse;
+}
+
+.navbar-nav {
+   list-style: none;
+   display: flex;
+}
+
+.nav-item {
+   margin-right: 18px;
+}
+
+.nav-item a {
+   text-decoration: none;
+   color: #fff;
+   font-size: 20px;
+}

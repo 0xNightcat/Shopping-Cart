@@ -1,0 +1,31 @@
+.alert {
+   position: fixed;
+   bottom: 90px;
+   left: -100%;
+   width: 300px;
+   height: auto;
+   border-radius: 6px;
+   color: #fff;
+}
+
+.alert p {
+   border-radius: 5px;
+   font-size: 18px;
+   padding: 14px 10px;
+   text-align: center;
+   border: 2px solid #fff;
+   z-index: 9999;
+   transition: all 0.1s;
+}
+
+.alert p.warning {
+   background-color: #e45f07;
+}
+
+.alert p.danger {
+   background-color: #ff2d55;
+}
+
+.alert p.success {
+   background-color: #009600;
+}
